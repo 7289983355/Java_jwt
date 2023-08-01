@@ -1,0 +1,13 @@
+package day_10;
+
+public class User {
+	private final String firstName;
+	private final String lastName;
+	private final String email;
+	private final String secondaryEmail;
+	private final String homePhone;
+	private final String mobilePhone;
+	private final String country;
+	private final String city;
+
+	}

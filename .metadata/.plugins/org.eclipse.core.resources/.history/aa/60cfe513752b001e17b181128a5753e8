@@ -1,0 +1,20 @@
+package day_11;
+@FunctionalInterface
+interface MyInterface {
+  Message send(String message);
+}
+
+class Message {
+
+  public Message(String message) {
+    System.out.println(message);
+  }
+}
+
+class Test {
+
+  public static void main(String[] args) {
+    MyInterface myInterface = Message::new;
+    myInterface.send("Hello!");
+  }
+}

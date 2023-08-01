@@ -1,0 +1,28 @@
+package sample_4;
+
+import java.util.Comparator;
+import java.util.Map;
+import java.util.Optional;
+
+//Find out the oldest employee, his/her age and department?
+public class Test8 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp = new Employee();
+		
+		Optional<Employee> oldestEmp=emp.init().stream()
+		   .max(Comparator.comparing(Employee::getAge));
+		
+		
+		  Employee data =oldestEmp.get();
+		
+		  
+		  System.out.println(data);
+		
+		
+	}
+	
+	
+	
+}

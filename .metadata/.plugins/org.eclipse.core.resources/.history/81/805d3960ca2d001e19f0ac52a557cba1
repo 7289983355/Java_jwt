@@ -1,0 +1,5 @@
+package com.secutityApp.model;
+
+public class ERole {
+
+}

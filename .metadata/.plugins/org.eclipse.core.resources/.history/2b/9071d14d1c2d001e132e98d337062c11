@@ -1,0 +1,14 @@
+package sample_4;
+
+import java.io.IOException;
+
+public class Test12 {
+	   
+  	public static void main(String[] args) throws IOException {
+   		try {
+   			throw new IOException("Hello");
+   		} catch(Exception e) {
+   			System.out.println(e.getMessage());
+   		}
+   	}
+}

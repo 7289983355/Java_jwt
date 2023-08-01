@@ -1,0 +1,5 @@
+package com.secutityApp.repo;
+@Repository
+public interface RoleRepository extends JpaRepository<Role, Long> {
+  Optional<Role> findByName(ERole name);
+}

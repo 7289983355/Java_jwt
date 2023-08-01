@@ -1,0 +1,5 @@
+package com.secutityApp.entity;
+
+public class Role {
+
+}

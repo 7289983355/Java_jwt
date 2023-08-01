@@ -1,0 +1,15 @@
+package day_11;
+
+public class Test3 {
+
+	public static void drawCircle() {
+		System.out.println("Drawing circle...");
+	}
+
+	public static void main(String[] args) {
+
+		Test3 test = new Test3();
+		Drawable drawable = test::drawCircle;
+		drawable.draw();
+	}
+}

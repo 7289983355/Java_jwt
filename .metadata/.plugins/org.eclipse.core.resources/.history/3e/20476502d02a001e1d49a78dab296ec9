@@ -1,0 +1,10 @@
+package day_10;
+
+
+class Person1 {
+    private String name;
+    private int age;
+    private String city;
+
+   
+}

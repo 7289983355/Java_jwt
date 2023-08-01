@@ -1,0 +1,5 @@
+package com.secutityAlibou.config;
+
+public class ApplicationConfig {
+
+}

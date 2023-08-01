@@ -1,0 +1,76 @@
+public class User {
+    private final String firstName;
+    private final String lastName;
+    private final String email;
+    private final String secondaryEmail;
+    private final String homePhone;
+    private final String mobilePhone;
+    private final String country;
+    private final String city;
+    private User(Builder builder) {
+        this.firstName = builder.firstName;
+        this.lastName = builder.lastName;
+        this.email = builder.email;
+        this.secondaryEmail = builder.secondaryEmail;
+        this.homePhone = builder.homePhone;
+        this.mobilePhone = builder.mobilePhone;
+        this.country = builder.country;
+        this.city = builder.city;
+    }
+    
+    @Override
+    public String toString()
+    {
+        return "User [firstName = "+ firstName +", lastName = "+ lastName +", "
+                + "email = "+ email +", secondaryEmail = "+ secondaryEmail +", "
+                + "homePhone = "+ homePhone +", mobilePhone = "+ mobilePhone +", "
+                + "country = "+ country +", city = "+ city +", ]";
+    }
+    /**
+     * @return the firstName
+     */
+    public String getFirstName() {
+        return firstName;
+    }
+    /**
+     * @return the lastName
+     */
+    public String getLastName() {
+        return lastName;
+    }
+    /**
+     * @return the email
+     */
+    public String getEmail() {
+        return email;
+    }
+    /**
+     * @return the secondaryEmail
+     */
+    public String getSecondaryEmail() {
+        return secondaryEmail;
+    }
+    /**
+     * @return the homePhone
+     */
+    public String getHomePhone() {
+        return homePhone;
+    }
+    /**
+     * @return the mobilePhone
+     */
+    public String getMobilePhone() {
+        return mobilePhone;
+    }
+    /**
+     * @return the country
+     */
+    public String getCountry() {
+        return country;
+    }
+    /**
+     * @return the city
+     */
+    public String getCity() {
+        return city;
+    }

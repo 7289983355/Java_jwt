@@ -1,0 +1,14 @@
+package day_10;
+
+
+public class DogBuilder {
+	
+ public static void main(String[] agrs)
+ 
+  {
+     Dog dog = new Dog.DogBuilder("Sergey", "Kargopolov").city("Vancouver").email("dharmeshkumar016@gmail.com").build();
+     System.out.println("User object toString() = " + user);
+     System.out.println("User first name = " + user.getFirstName());
+     System.out.println("City name = " + user.getCity());
+  }
+}

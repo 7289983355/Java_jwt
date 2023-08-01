@@ -1,0 +1,12 @@
+/**
+ * 
+ */
+package com.secutityAlibou.config;
+
+/**
+ * @author dharm
+ *
+ */
+public class SecurityConfig {
+
+}

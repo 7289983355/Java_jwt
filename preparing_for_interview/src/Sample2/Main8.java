@@ -1,0 +1,8 @@
+package Sample2;
+public class Main8 {
+	public static void main(String[] args) {
+    	String text;
+    	//int length = text.length();
+   	 //System.out.println("The length of the text is: " + length);
+	}
+}

@@ -1,0 +1,20 @@
+package day_10;
+import com.fasterxml.jackson.databind.JsonNode;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+public class DynamicJsonMapper {
+  public static void main(String[] args) throws Exception {
+    String json = "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}";
+
+    ObjectMapper mapper = new ObjectMapper();
+    JsonNode node = mapper.readTree(json);
+
+    String name = node.get("name").asText();
+    int age = node.get("age").asInt();
+    String city = node.get("city").asText();
+
+    System.out.println("Name: " + name);
+    System.out.println("Age: " + age);
+    System.out.println("City: " + city);
+  }
+}

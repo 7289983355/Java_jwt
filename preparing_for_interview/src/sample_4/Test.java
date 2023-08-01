@@ -1,0 +1,22 @@
+package sample_4;
+
+import java.util.Map;
+import java.util.stream.Collectors;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Employee emp = new Employee();
+
+		emp.init();
+
+		Map<String, Long> data = emp.init().stream()
+				.collect(Collectors.groupingBy(Employee::getGender, Collectors.counting()));
+
+		System.out.println(data);
+
+	}
+
+}

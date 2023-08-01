@@ -1,0 +1,8 @@
+package day_10;
+class Person {
+    private String name;
+    private int age;
+    private String city;
+
+    // Constructors, getters, setters, and toString() method
+}

@@ -1,0 +1,19 @@
+package sample_4;
+
+import java.util.Map;
+import java.util.stream.Collectors;
+
+//Get the Names of employees who joined after 2015.
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp = new Employee();
+		 emp.init().stream()
+		    .filter(employee -> employee.yearOfJoining > 
+		    2015).map(Employee::getName).collect(Collectors.toList());
+		
+
+	}
+
+}

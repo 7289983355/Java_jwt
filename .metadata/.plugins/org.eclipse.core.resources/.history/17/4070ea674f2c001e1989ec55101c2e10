@@ -1,0 +1,10 @@
+//Write a program to print the count of each character in a String?
+class Test11 {
+    
+  public static void main(String[] args) {
+     Input: String s = "string data to count each character";
+	 
+
+   
+  }
+}

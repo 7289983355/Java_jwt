@@ -1,0 +1,14 @@
+package Sample2;
+
+import java.util.List;
+
+ class ConcatenationChallenge {
+ 	public static String concatenateStrings(List<String> inputStrings) {
+    	String result = "";
+    	for (String str : inputStrings) {
+        	result += str;
+    	}
+    	return result;
+	}
+ 
+ }

@@ -1,0 +1,16 @@
+package sample_4;
+
+import java.util.Map;
+
+//Find the average age of Male and Female Employees.
+public class Test2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp = new Employee();
+		 emp.init().stream()
+		
+
+	}
+
+}

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;springConfigServer&apos;" deleteContents="false" description="Delete resource &apos;springConfigServer&apos;" element1="/springConfigServer" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1690340190758"/>
+</session>

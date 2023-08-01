@@ -1,0 +1,8 @@
+package com.secutityApp.securityFilter;
+
+import org.springframework.boot.context.properties.ConfigurationProperties;
+
+@ConfigurationProperties("rsa")
+public record RsaKeyProperties() {
+
+}

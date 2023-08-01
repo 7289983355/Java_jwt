@@ -1,0 +1,26 @@
+package sample_4;
+
+import java.util.DoubleSummaryStatistics;
+import java.util.Map;
+import java.util.stream.Collectors;
+
+//Find out the average and total salary of the organization.
+public class Test9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp = new Employee();
+		 
+		DoubleSummaryStatistics s=		emp.init().stream().collect(Collectors.summarizingDouble(Employee::getSalary));
+		
+
+		
+	System.out.println(s.getAverage());
+	
+	System.out.println(s.getSum());
+	System.out.println(s.getMin());
+	System.out.println(s.getMax());
+		
+	}
+
+}

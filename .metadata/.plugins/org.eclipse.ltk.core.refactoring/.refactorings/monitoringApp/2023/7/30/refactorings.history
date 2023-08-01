@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;grafana&apos; to &apos;docker-compose&apos;" description="Move &apos;grafana&apos; to &apos;docker-compose&apos;" destination="docker-compose" element1="docker-compose/prometheus/grafana" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1690465621630" updateReferences="true"/>
+</session>

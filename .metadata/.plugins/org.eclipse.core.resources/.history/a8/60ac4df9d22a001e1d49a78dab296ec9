@@ -1,0 +1,21 @@
+package day_10;
+import com.fasterxml.jackson.databind.ObjectMapper;
+
+import java.util.Map;
+
+public class DynamicJsonMapper2 {
+  public static void main(String[] args) throws Exception {
+    String json = "{\"name\": \"John\", \"age\": 30, \"city\": \"New York\"}";
+
+    ObjectMapper mapper = new ObjectMapper();
+    Map<String, Object> map = mapper.readValue(json, Map.class);
+
+    String name = (String) map.get("name");
+    int age = (int) map.get("age");
+    String city = (String) map.get("city");
+
+    System.out.println("Name: " + name);
+    System.out.println("Age: " + age);
+    System.out.println("City: " + city);
+  }
+}

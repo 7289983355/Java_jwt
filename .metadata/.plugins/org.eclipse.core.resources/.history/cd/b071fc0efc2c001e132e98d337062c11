@@ -1,0 +1,15 @@
+package sample_4;
+
+
+//Write a program to print the names of all departments in the organization.
+public class Test1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+	
+		
+
+	}
+
+}

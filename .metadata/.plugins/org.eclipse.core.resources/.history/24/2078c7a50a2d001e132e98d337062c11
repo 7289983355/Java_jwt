@@ -1,0 +1,16 @@
+package sample_4;
+
+import java.util.Map;
+
+//Get the Names of employees who joined after 2015.
+public class Test4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp = new Employee();
+		 emp.init().stream()
+		
+
+	}
+
+}

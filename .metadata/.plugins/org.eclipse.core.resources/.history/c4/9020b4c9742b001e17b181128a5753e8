@@ -1,0 +1,7 @@
+class Test4 {
+
+  public static void main(String[] args) {
+    MyInterface myInterface = Message::new;
+    myInterface.send("Hello!");
+  }
+}

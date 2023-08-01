@@ -1,0 +1,16 @@
+package sample_4;
+
+import java.util.Map;
+
+//Find out the average and total salary of the organization.
+public class Test9 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Employee emp = new Employee();
+		 emp.init().stream()
+		
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package Sample2;
+public class ConcatenationChallenge {
+ 	public static String concatenateStrings(List<String> inputStrings) {
+    	String result = "";
+    	for (String str : inputStrings) {
+        	result += str;
+    	}
+    	return result;
+	}
+ 
+	public static void main14(String[] args) {
+    	List<String> input = Arrays.asList("Hello", " ", "World", "!");
+    	String output = concatenateStrings(input);
+    	System.out.println(output);
+	}
+}

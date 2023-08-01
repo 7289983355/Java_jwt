@@ -1,0 +1,5 @@
+package com.secutityApp.dao;
+
+public class UserRepository {
+
+}

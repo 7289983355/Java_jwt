@@ -1,0 +1,5 @@
+package com.secutityApp.securityFilter;
+
+public class SecurityConfig {
+
+}

@@ -1,0 +1,15 @@
+package com.monitoringApp;
+@RestController
+public class MetricsController {
+ 
+    @GetMapping("/endPoint1")
+    public String endPoint1() {
+        return "Metrics for endPoint1";
+    }
+ 
+    @GetMapping("/endPoint2")
+    public String endPoint2() {
+        return "Metrics for endPoint2";
+    }
+     
+}

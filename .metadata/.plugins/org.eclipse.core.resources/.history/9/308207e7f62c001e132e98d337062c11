@@ -1,0 +1,13 @@
+package Sample2;
+
+public class Snippet {
+	public static void main14(String[] args) {
+	    	List<String> input = Arrays.asList("Hello", " ", "World", "!");
+	    	
+	    	String output = concatenateStrings(input);
+	    	
+	    	System.out.println(output);
+		}
+	}
+}
+

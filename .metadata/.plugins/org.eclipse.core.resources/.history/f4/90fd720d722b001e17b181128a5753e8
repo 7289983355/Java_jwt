@@ -1,0 +1,18 @@
+package day_11;
+public class Test {
+
+  public void drawCircle() {
+    System.out.println("Drawing circle...");
+  }
+
+  public static void main(String[] args) {
+	  
+	  
+	  Drawable drawable =() -> System.out.println("drawing.............");
+	  
+	  
+//    Test test = new Test();
+//    Drawable drawable = () -> test.drawCircle();
+//    drawable.draw();
+  }
+}
